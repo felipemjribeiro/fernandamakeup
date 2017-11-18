@@ -57,7 +57,7 @@
             clientId: '02b47e1b98ce4f04adc271ffbd26611d',
             accessToken: '2123300301.197835f.d7e283a3c98f4efab993df20e2a81b10',
             resolution: 'standard_resolution',
-            template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
+            template: '<div class="4u 4u(mobile)"> <section class="highlight"> <img src="{{image}}" /> </div> </section> ',
             sortBy: 'most-recent',
             limit: 20,
             links: true
@@ -66,18 +66,7 @@
     </script>
 
 
-
 </head>
-
-
-
-<div id="instafeed">
-</div>
- 
-
-
-
-
 
                         <body class="homepage">
                             <div id="page-wrapper">
@@ -98,13 +87,14 @@
                                             <ul>
                                                 <li class="current"><a href="index.html">Home</a></li>
                                                 <li>
-                                                    <a href="#">Curso Profissional</a>
+                                                    <a href="#divcursos">Curso Profissional</a>
                                                     <ul>
                                                         <li><a href="#iniciante">Iniciante</a></li>
                                                         <li><a href="#profissional">Aperfeiçoamento</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="#ProdCompleta">Produção completa</a></li>
+                                                <li><a href="#lastpostsinstagram">Trabalhos recentes</a></li>
                                                 <li><a href="#footer-wrapper">Contato</a></li>
 
                                             </ul>
@@ -115,7 +105,7 @@
 
 
                                 <!--Seção cursos -->
-                                <div class="wrapper style2">
+                                <div class="wrapper style2" id="divcursos">
                                     <div class="title">Cursos</div>
                                     <div id="main" class="container">
 
@@ -273,6 +263,22 @@
                                     </section>
                                 </div>
 
+                                <!--Últimos posts do Instagram-->
+                                <div class="wrapper style2" id="lastpostsinstagram">
+                                    <div class="title">Trabalhos recentes</div>
+                                    <div id="highlights" class="container">
+                                        <div class="row 150%">
+
+
+                                            <div id="instafeed" class="row 150%">
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
 
 
                                 <!-- Rodapé -->
