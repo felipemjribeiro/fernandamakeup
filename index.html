@@ -57,6 +57,9 @@
             clientId: '02b47e1b98ce4f04adc271ffbd26611d',
             accessToken: '2123300301.197835f.d7e283a3c98f4efab993df20e2a81b10',
             resolution: 'standard_resolution',
+            filter: function (image) {
+                return image.tags.indexOf('makesbh') >= 0;
+            },
             template: '<div class="4u 4u(mobile)"> <section class="highlight"> <img src="{{image}}" /> </div> </section> ',
             sortBy: 'most-recent',
             limit: 18,
@@ -121,14 +124,12 @@
                                                 <div class="row">
                                                     <div class="6u 12u(mobile)">
                                                         <section>
-                                                            <h3 class="icon fa-book">Detalhes do curso</h3>
+                                                            <h3 class="icon fa-heart">Detalhes do curso</h3>
                                                             <p>
                                                                 Neste módulo você aprenderá três (3) técnicas indicadas pela Fernanda como esfumado clássico, pálpebra luz e smokey preto opaco e com glitter
                                                                 <br>O curso é individual, 100% prático, acompanhado lado a lado pela Fernanda
-                                                                <br>Todo o material necessário para prática do curso será fornecido para você, incluindo modelos para execução das técnicas
+                                                                <br>Todo material necessário será fornecido para você durante o curso, incluindo modelos para execução das técnicas 
                                                                 <br>O aluno receberá ao final do curso um certificado e fotos para montar seu portfólio
-                                                                <br>Duração de aproximadamente 8 horas
-                                                                <br>Local do curso: Bairro Boa Vista, Belo Horizonte - MG
 
                                                                 <br><br>Conteúdo do curso
                                                                 <br>Técnicas de preparação de pele completa
@@ -145,6 +146,29 @@
                                                             </p>
                                                         </section>
                                                     </div>
+
+                                                    <div class="6u 12u(mobile)">
+                                                        <section>
+                                                            <h3 class="icon fa-clock-o">Duração</h3>
+                                                            <p>
+                                                                1 dia com 8 horas de duração, 3 técnicas
+                                                            </p>
+                                                        </section>
+                                                    </div>
+
+
+
+                                                    <div class="6u 12u(mobile)">
+                                                        <section>
+                                                            <h3 class="icon fa-map-marker">Local</h3>
+                                                            <p>
+                                                                Bairro Boa Vista - Belo Horizonte - MG
+                                                            </p>
+                                                        </section>
+                                                    </div>
+
+
+
                                                     <div class="6u 12u(mobile)">
                                                         <section>
                                                             <h3 class="icon fa-money">Investimento</h3>
@@ -186,15 +210,13 @@
                                                     <div class="row">
                                                         <div class="6u 12u(mobile)">
                                                             <section>
-                                                                <h3 class="icon fa-book">Detalhes do curso</h3>
+                                                                <h3 class="icon fa-heart">Detalhes do curso</h3>
                                                                 <p>
 
                                                                     Neste módulo voce escolhe três (3) técnicas <a href="#lastpostsinstagram">(exemplos das técnicas podem ser encontrados clicando aqui)</a>
                                                                     <br>O curso é individual, 100% prático, acompanhado lado a lado pela Fernanda
-                                                                    <br>Todo o material necessário para prática do curso será fornecido para você, incluindo modelos para execução das técnicas
+                                                                    <br>Todo material necessário será fornecido para você durante o curso, incluindo modelos para execução das técnicas
                                                                     <br>O aluno receberá ao final do curso um certificado e fotos para compor seu portfólio
-                                                                    <br>Duração de aproximadamente 8 horas
-                                                                    <br>Local do curso: Bairro Boa Vista, Belo Horizonte - MG
 
                                                                     <br><br>Conteúdo do curso
                                                                     <br>Técnicas de preparação de pele completa
@@ -208,6 +230,22 @@
                                                                     <br>Tipos de pincéis
                                                                     <br>Dicas para fotos
                                                                     <br>Dicas de produtos
+                                                                </p>
+                                                            </section>
+                                                        </div>
+                                                        <div class="6u 12u(mobile)">
+                                                            <section>
+                                                                <h3 class="icon fa-clock-o">Duração</h3>
+                                                                <p>
+                                                                    1 dia com 8 horas de duração, 3 técnicas
+                                                                </p>
+                                                            </section>
+                                                        </div>
+                                                        <div class="6u 12u(mobile)">
+                                                            <section>
+                                                                <h3 class="icon fa-map-marker">Local</h3>
+                                                                <p>
+                                                                    Bairro Boa Vista - Belo Horizonte - MG
                                                                 </p>
                                                             </section>
                                                         </div>
@@ -242,6 +280,8 @@
                                         </section>
                                     </div>
                                 </div>
+                                <br />
+                                <br />
 
 
                                 <!-- Seção produção completa -->
@@ -256,11 +296,7 @@
                                         <img class="image featured" src="images/producaocompleta.jpg" alt="">
 
                                     </div>
-                                    <section id="intro" class="container">
-                                        <ul class="actions">
-                                            <li><a href="https://www.instagram.com/fernandaferreiramakeup" target="_blank" class="button style1 big icon fa-instagram"> ver + fotos no instagram</a></li>
-                                        </ul>
-                                    </section>
+
                                 </div>
 
                                 <!--Últimos posts do Instagram-->
@@ -278,6 +314,12 @@
 
                                         </div>
                                     </div>
+                                    </br>
+                                    <section id="intro" class="container">
+                                        <ul class="actions">
+                                            <li><a href="https://www.instagram.com/fernandaferreiramakeup" target="_blank" class="button style1 big icon fa-instagram"> ver + fotos no instagram</a></li>
+                                        </ul>
+                                    </section>
                                 </div>
 
 
