@@ -1,0 +1,6 @@
+quando o instafeed parar de funcionar
+acessar o instagram developer na conta da fernanda https://www.instagram.com/developer
+clicar em Manage Clients
+copiar o clientid
+acessar esse url https://api.instagram.com/oauth/authorize/?client_id=197835f674e141109f6a786dcb76e679&redirect_uri=http://www.fernandamakeup.com&response_type=token
+pegar o token e atualizar no html no atributo accessToken 
