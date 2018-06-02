@@ -1491,6 +1491,7 @@
 		color: #4ea6aa !important;
 	}
 
+
 		.feature-list h3:before {
 			position: relative;
 			display: inline-block;
@@ -1499,6 +1500,10 @@
 			border-radius: 1em;
 			text-align: center;
 		}
+
+
+
+
 
 /* Icons */
 
