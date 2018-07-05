@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: www.fernandamakeup.com
+Allow: www.fernandamakeup.com/index.html
+Allow: 
+
