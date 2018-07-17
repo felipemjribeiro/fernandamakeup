@@ -48,6 +48,67 @@
             font-family: 'code-light';
             letter-spacing: 0.12em;
         }
+
+
+        /*Slider*/
+        .slider {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+            .slider ul {
+                display: flex;
+                padding: 0;
+                width: 400%;
+                animation: cambio 10s infinite alternate linear;
+            }
+
+            .slider li {
+                width: 100%;
+                list-style: none;
+            }
+
+            .slider img {
+                width: 100%;
+            }
+
+        @keyframes cambio {
+            0% {
+                margin-left: 0;
+            }
+
+            20% {
+                margin-left: 0;
+            }
+
+            25% {
+                margin-left: -100%;
+            }
+
+            45% {
+                margin-left: -100%;
+            }
+
+            50% {
+                margin-left: -200%;
+            }
+
+            70% {
+                margin-left: -200%;
+            }
+
+            75% {
+                margin-left: -300%;
+            }
+
+            100% {
+                margin-left: -300%;
+            }
+        }
+
+
+
     </style>
 
     <!--Instafeed-->
@@ -133,7 +194,7 @@
                                                             </p>
 
 
-                                                                <h3 class="icon fa-heart">Conteúdo do curso</h3>
+                                                            <h3 class="icon fa-heart">Conteúdo do curso</h3>
                                                             <p>
                                                                 ☑ Técnicas de preparação de pele completa
                                                                 <br>☑ Técnicas de contorno e iluminação
@@ -163,7 +224,7 @@
                                                         <section>
                                                             <h3 class="icon fa-star">Depois do curso</h3>
                                                             <p>
-                                                               Pode ficar tranquilo, oferecemos suporte após o curso através do whatsapp
+                                                                Pode ficar tranquilo, oferecemos suporte após o curso através do whatsapp
                                                             </p>
                                                         </section>
                                                     </div>
@@ -215,11 +276,37 @@
                                                         </section>
                                                     </div>
 
-                                                 
 
+
+                                                    <!--Slider-->
+                                                  
+                                                    <div class="6u 12u(mobile)">
+                                                        <section>
+                                                            <h3 class="icon fa-camera">Alunas em treinamento executando as técnicas</h3>                                                            
+                                                            <div class="slider">
+                                                                <ul>
+                                                                    <li>
+                                                                        <img src="slider/slider1.jpeg" alt="slider1">
+                                                                    </li>
+                                                                    <li>
+                                                                        <img src="slider/slider2.jpeg" alt="slider2">
+                                                                    </li>
+                                                                    <li>
+                                                                        <img src="slider/slider3.jpeg" alt="slider3">
+                                                                    </li>
+                                                                    <li>
+                                                                        <img src="slider/slider4.jpeg" alt="slider4">
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                            <!--<iframe src="https://www.youtube.com/embed/G6kb2gjgfyo?rel=0&autoplay=1&loop=1&playlist=G6kb2gjgfyo&showinfo=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+
+                                                        </section>
+                                                    </div>
 
                                                 </div>
-                                            </div>
+                                                </div>
                                         </section>
                                     </div>
                                 </div>
